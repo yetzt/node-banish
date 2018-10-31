@@ -1,0 +1,43 @@
+{
+  "name": "banish",
+  "version": "0.0.0",
+  "description": "static cache generator for ghost",
+  "main": "lib/banish.js",
+  "bin": {
+    "banish": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yetzt/node-banish.git"
+  },
+  "keywords": [
+    "ghost",
+    "blog",
+    "cache",
+    "static",
+    "site",
+    "generator"
+  ],
+  "author": "yetzt <node@yetzt.me>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/yetzt/node-banish/issues"
+  },
+  "homepage": "https://github.com/yetzt/node-banish#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "clean-css": "^4.2.1",
+    "css-url-parser": "^1.1.3",
+    "debug": "^4.1.0",
+    "html-minifier": "^3.5.21",
+    "js-mozjpeg": "^0.1.2",
+    "jsonic": "^0.3.1",
+    "mkdirp": "^0.5.1",
+    "node-zopfli-es": "0.0.2",
+    "optipng-js": "^0.1.2",
+    "queue": "^4.5.0",
+    "request": "^2.88.0",
+    "uglify-js": "^3.4.9",
+    "valid-url": "^1.0.9"
+  }
+}
