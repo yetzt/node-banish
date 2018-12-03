@@ -23,5 +23,8 @@ if (!validurl(config.url)) return console.error("invalid url: %s", config.url), 
 
 debug("download folder: %s", config.dest);
 
+config.lockfile = path.resolve(config.dest, '.banish.lock');
+if (fs.existsSync(config.lockfile)) console.error('lockfile exists: '+config.lockfile), process.exit(1);
+
 // run
 require("./lib/banish.js")(config);
