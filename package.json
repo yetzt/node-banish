@@ -1,6 +1,6 @@
 {
   "name": "banish",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "static cache generator for ghost",
   "main": "lib/banish.js",
   "bin": {
