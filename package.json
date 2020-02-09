@@ -32,7 +32,7 @@
     "html-minifier": "^4.0.0",
     "js-mozjpeg": "^0.1.2",
     "jsonic": "^0.3.1",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^1.0.0",
     "node-zopfli-es": "^1.0.3",
     "optipng-js": "^0.1.2",
     "queue": "^6.0.0",
