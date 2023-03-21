@@ -5,8 +5,6 @@ var url = require("url");
 var path = require("path");
 
 var validurl = require("valid-url").is_web_uri;
-var request = require("request");
-var mkdirp = require("mkdirp");
 var debug = require("debug")("banish");
 
 // get config
