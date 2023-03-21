@@ -34,9 +34,9 @@
     "jsonic": "^1.0.0",
     "mkdirp": "^1.0.0",
     "node-zopfli-es": "^1.0.3",
+    "needle": "^3.2.0",
     "optipng-js": "^0.1.2",
     "queue": "^6.0.2",
-    "request": "^2.88.0",
     "uglify-js": "^3.14.2",
     "valid-url": "^1.0.9"
   }
